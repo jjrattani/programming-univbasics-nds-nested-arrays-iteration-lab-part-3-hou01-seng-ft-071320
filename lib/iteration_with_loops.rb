@@ -9,7 +9,7 @@ def join_nested_strings(src)
       if src[row_index][element_index].class == String
         string_array <<  src[row_index][element_index]
       end
-      element_index_index += 1
+      element_index += 1
     end
     row_index += 1
   end
